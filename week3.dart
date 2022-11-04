@@ -8,7 +8,7 @@ void main() {
   GenerateEBill(); //Q7
 }
 
-void checkSQRorREC() {
+void checkSQRorREC() {    //Q1
   int length = 5;
   int breadth = 5;
   if (length == breadth) {
@@ -18,7 +18,7 @@ void checkSQRorREC() {
   }
 }
 
-void OldandYoung() {
+void OldandYoung() {     //Q2
   int a = 23; //person 1
   int b = 25; //person 2
   int c = 19; //person 3
@@ -49,7 +49,7 @@ void OldandYoung() {
   }
 }
 
-void AttendPer() {
+void AttendPer() {   //Q3
   int heldClass = 16;
   int attendClass = 10;
   double per = (attendClass / heldClass) * 100;
@@ -61,7 +61,7 @@ void AttendPer() {
   }
 }
 
-void leapYear() {
+void leapYear() {   //Q4
   int year = 3000;
   if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
     print("$year is leap year");
@@ -70,7 +70,7 @@ void leapYear() {
   }
 }
 
-void WeatherCond() {
+void WeatherCond() { //Q5
   int temp = 30;
   if (temp < 0) {
     print("Wheather : Freezing");
@@ -87,7 +87,7 @@ void WeatherCond() {
   }
 }
 
-void checkVowel() {
+void checkVowel() { //Q6
   String charr = 'a';
   String check = charr.toLowerCase();
 
@@ -102,7 +102,7 @@ void checkVowel() {
   }
 }
 
-void GenerateEBill() {
+void GenerateEBill() { //Q7
   int id = 1001;
   String name = "James";
   int units = 800;
